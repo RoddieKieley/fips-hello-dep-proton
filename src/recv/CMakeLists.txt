@@ -1,0 +1,5 @@
+fips_begin_app(dep-protonrecv cmdline)
+    fips_files(main.c)
+    fips_deps(dep-proton)
+	fips_libs(qpid-proton)
+fips_end_app()
